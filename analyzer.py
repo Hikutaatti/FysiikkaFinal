@@ -8,8 +8,8 @@ from scipy.signal import butter, filtfilt, find_peaks, welch
 from geopy.distance import geodesic
 
 # Load data
-acceleration_file = "Linear Acceleration.csv"
-gps_file = "Location.csv"
+acceleration_file = "https://raw.githubusercontent.com/Hikutaatti/FysiikkaFinal/refs/heads/main/Linear%20Acceleration.csv"
+gps_file = "https://raw.githubusercontent.com/Hikutaatti/FysiikkaFinal/refs/heads/main/Location.csv"
 
 accel_data = pd.read_csv(acceleration_file)
 gps_data = pd.read_csv(gps_file)
